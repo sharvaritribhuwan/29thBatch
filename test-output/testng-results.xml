@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="11" total="14" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Product added in cart = 6]]>
+    </line>
+    <line>
+      <![CDATA[Number of products after removing = 4]]>
+    </line>
+    <line>
+      <![CDATA[After successfull login, inventory page URL = https://www.saucedemo.com/inventory.html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-03T15:22:21 IST" name="Sanity_Regression_Retesting_Suite" finished-at="2024-01-03T15:22:52 IST" duration-ms="31595">
+    <groups>
+      <group name="Sanity">
+        <method signature="LoginPageTest.logintoApplicationTest()[pri:2, instance:testcases.LoginPageTest@6440112d]" name="logintoApplicationTest" class="testcases.LoginPageTest"/>
+        <method signature="Inventory_PageTest.add6products()[pri:5, instance:testcases.Inventory_PageTest@4c60d6e9]" name="add6products" class="testcases.Inventory_PageTest"/>
+        <method signature="Inventory_PageTest.remove2productsTest()[pri:6, instance:testcases.Inventory_PageTest@4c60d6e9]" name="remove2productsTest" class="testcases.Inventory_PageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="LoginPageTest.logintoApplicationTest()[pri:2, instance:testcases.LoginPageTest@6440112d]" name="logintoApplicationTest" class="testcases.LoginPageTest"/>
+        <method signature="Inventory_PageTest.add6products()[pri:5, instance:testcases.Inventory_PageTest@4c60d6e9]" name="add6products" class="testcases.Inventory_PageTest"/>
+        <method signature="Inventory_PageTest.remove2productsTest()[pri:6, instance:testcases.Inventory_PageTest@4c60d6e9]" name="remove2productsTest" class="testcases.Inventory_PageTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-01-03T15:22:21 IST" name="Sanity_Regression_Retesting_Test" finished-at="2024-01-03T15:22:52 IST" duration-ms="31595">
+      <class name="testcases.Inventory_PageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_PageTest@4c60d6e9]" started-at="2024-01-03T15:22:21 IST" name="setup" finished-at="2024-01-03T15:22:31 IST" duration-ms="10791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="add6products()[pri:5, instance:testcases.Inventory_PageTest@4c60d6e9]" started-at="2024-01-03T15:22:31 IST" name="add6products" finished-at="2024-01-03T15:22:33 IST" duration-ms="1474" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product added in cart = 6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add6products -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_PageTest@4c60d6e9]" started-at="2024-01-03T15:22:33 IST" name="closeBrowser" finished-at="2024-01-03T15:22:33 IST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=add6products status=SUCCESS method=Inventory_PageTest.add6products()[pri:5, instance:testcases.Inventory_PageTest@4c60d6e9] output=Product added in cart = 6]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Inventory_PageTest@4c60d6e9]" started-at="2024-01-03T15:22:33 IST" name="setup" finished-at="2024-01-03T15:22:42 IST" duration-ms="9251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="remove2productsTest()[pri:6, instance:testcases.Inventory_PageTest@4c60d6e9]" started-at="2024-01-03T15:22:42 IST" name="remove2productsTest" finished-at="2024-01-03T15:22:43 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Number of products after removing = 4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- remove2productsTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.Inventory_PageTest@4c60d6e9]" started-at="2024-01-03T15:22:43 IST" name="closeBrowser" finished-at="2024-01-03T15:22:43 IST" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=remove2productsTest status=SUCCESS method=Inventory_PageTest.remove2productsTest()[pri:6, instance:testcases.Inventory_PageTest@4c60d6e9] output=Number of products after removing = 4]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.Inventory_PageTest -->
+      <class name="testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginPageTest@6440112d]" started-at="2024-01-03T15:22:43 IST" name="setup" finished-at="2024-01-03T15:22:51 IST" duration-ms="8032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintoApplicationTest()[pri:2, instance:testcases.LoginPageTest@6440112d]" started-at="2024-01-03T15:22:51 IST" name="logintoApplicationTest" finished-at="2024-01-03T15:22:52 IST" duration-ms="550" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After successfull login, inventory page URL = https://www.saucedemo.com/inventory.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logintoApplicationTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.LoginPageTest@6440112d]" started-at="2024-01-03T15:22:52 IST" name="closeBrowser" finished-at="2024-01-03T15:22:52 IST" duration-ms="273" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logintoApplicationTest status=SUCCESS method=LoginPageTest.logintoApplicationTest()[pri:2, instance:testcases.LoginPageTest@6440112d] output=After successfull login, inventory page URL = https://www.saucedemo.com/inventory.html]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.LoginPageTest -->
+    </test> <!-- Sanity_Regression_Retesting_Test -->
+  </suite> <!-- Sanity_Regression_Retesting_Suite -->
+</testng-results>

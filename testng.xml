@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sanity_Regression_Retesting_Suite">
+  <test thread-count="5" name="Sanity_Regression_Retesting_Test">
+    <groups>
+		<run>
+			
+			<include name="Regression"></include>
+			<exclude name="Retesing"></exclude>
+		
+		</run>
+	</groups>
+    <classes>
+      <class name="testcases.Inventory_PageTest"/>
+      <class name="testcases.LoginPageTest"/>
+      <class name="testcases.Cart_Page_Test"/>
+    </classes>
+  </test> <!-- Sanity_Regression_Retesting_Test -->
+</suite> <!-- Sanity_Regression_Retesting_Suite -->
